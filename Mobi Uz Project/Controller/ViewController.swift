@@ -17,6 +17,6 @@ class ViewController: UIViewController {
     
     //humoyun
     //otika
-
+// boldimi endi 
 }
 
