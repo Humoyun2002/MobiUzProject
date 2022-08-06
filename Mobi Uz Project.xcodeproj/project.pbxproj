@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		581406CC289E726C0039F10F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581406CB289E726C0039F10F /* HomeView.swift */; };
+		581406CE289E72790039F10F /* UssdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581406CD289E72790039F10F /* UssdView.swift */; };
+		581406D0289E72860039F10F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581406CF289E72860039F10F /* ProfileView.swift */; };
+		581406D2289E74270039F10F /* TabBaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581406D1289E74270039F10F /* TabBaController.swift */; };
 		588C0C2E289E65600046B606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588C0C2D289E65600046B606 /* AppDelegate.swift */; };
 		588C0C30289E65600046B606 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588C0C2F289E65600046B606 /* SceneDelegate.swift */; };
-		588C0C32289E65600046B606 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588C0C31289E65600046B606 /* ViewController.swift */; };
 		588C0C35289E65600046B606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588C0C33289E65600046B606 /* Main.storyboard */; };
 		588C0C38289E65600046B606 /* Mobi_Uz_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 588C0C36289E65600046B606 /* Mobi_Uz_Project.xcdatamodeld */; };
 		588C0C3A289E65610046B606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588C0C39289E65610046B606 /* Assets.xcassets */; };
@@ -18,10 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		581406CB289E726C0039F10F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		581406CD289E72790039F10F /* UssdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UssdView.swift; sourceTree = "<group>"; };
+		581406CF289E72860039F10F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		581406D1289E74270039F10F /* TabBaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBaController.swift; sourceTree = "<group>"; };
 		588C0C2A289E65600046B606 /* Mobi Uz Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobi Uz Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		588C0C2D289E65600046B606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		588C0C2F289E65600046B606 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		588C0C31289E65600046B606 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		588C0C34289E65600046B606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		588C0C37289E65600046B606 /* Mobi_Uz_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mobi_Uz_Project.xcdatamodel; sourceTree = "<group>"; };
 		588C0C39289E65610046B606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,9 +88,19 @@
 		581406C9289E69F20039F10F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				588C0C31289E65600046B606 /* ViewController.swift */,
+				581406D1289E74270039F10F /* TabBaController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		581406CA289E72570039F10F /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				581406CB289E726C0039F10F /* HomeView.swift */,
+				581406CD289E72790039F10F /* UssdView.swift */,
+				581406CF289E72860039F10F /* ProfileView.swift */,
+			);
+			path = TabBarController;
 			sourceTree = "<group>";
 		};
 		588C0C21289E65600046B606 = {
@@ -108,6 +124,7 @@
 		588C0C2C289E65600046B606 /* Mobi Uz Project */ = {
 			isa = PBXGroup;
 			children = (
+				581406CA289E72570039F10F /* TabBarController */,
 				581406C9289E69F20039F10F /* Controller */,
 				581406C8289E69D30039F10F /* Main */,
 				581406C7289E69C00039F10F /* Delegate */,
@@ -233,9 +250,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				588C0C32289E65600046B606 /* ViewController.swift in Sources */,
 				588C0C2E289E65600046B606 /* AppDelegate.swift in Sources */,
 				588C0C30289E65600046B606 /* SceneDelegate.swift in Sources */,
+				581406CE289E72790039F10F /* UssdView.swift in Sources */,
+				581406CC289E726C0039F10F /* HomeView.swift in Sources */,
+				581406D0289E72860039F10F /* ProfileView.swift in Sources */,
+				581406D2289E74270039F10F /* TabBaController.swift in Sources */,
 				588C0C38289E65600046B606 /* Mobi_Uz_Project.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
