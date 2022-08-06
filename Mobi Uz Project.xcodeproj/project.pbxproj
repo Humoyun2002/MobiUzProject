@@ -14,6 +14,7 @@
 		588C0C38289E65600046B606 /* Mobi_Uz_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 588C0C36289E65600046B606 /* Mobi_Uz_Project.xcdatamodeld */; };
 		588C0C3A289E65610046B606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588C0C39289E65610046B606 /* Assets.xcassets */; };
 		588C0C3D289E65610046B606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588C0C3B289E65610046B606 /* LaunchScreen.storyboard */; };
+		DEE99C94D871E827E86FDF71 /* Pods_Mobi_Uz_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BDE999EB65C61783EED613 /* Pods_Mobi_Uz_Project.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		588C0C39289E65610046B606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		588C0C3C289E65610046B606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		588C0C3E289E65610046B606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C381F205BEAC5B9829EE508D /* Pods-Mobi Uz Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobi Uz Project.release.xcconfig"; path = "Target Support Files/Pods-Mobi Uz Project/Pods-Mobi Uz Project.release.xcconfig"; sourceTree = "<group>"; };
+		D1BDE999EB65C61783EED613 /* Pods_Mobi_Uz_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobi_Uz_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2DF72E03B2621441B1B82C /* Pods-Mobi Uz Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobi Uz Project.debug.xcconfig"; path = "Target Support Files/Pods-Mobi Uz Project/Pods-Mobi Uz Project.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE99C94D871E827E86FDF71 /* Pods_Mobi_Uz_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CE78DEEE59662A2C8DEC805 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE2DF72E03B2621441B1B82C /* Pods-Mobi Uz Project.debug.xcconfig */,
+				C381F205BEAC5B9829EE508D /* Pods-Mobi Uz Project.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3643389F386BE952807B0EF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1BDE999EB65C61783EED613 /* Pods_Mobi_Uz_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		581406C7289E69C00039F10F /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				588C0C2D289E65600046B606 /* AppDelegate.swift */,
+				588C0C2F289E65600046B606 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		581406C8289E69D30039F10F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				588C0C33289E65600046B606 /* Main.storyboard */,
+				588C0C3B289E65610046B606 /* LaunchScreen.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		581406C9289E69F20039F10F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				588C0C31289E65600046B606 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		588C0C21289E65600046B606 = {
 			isa = PBXGroup;
 			children = (
 				588C0C2C289E65600046B606 /* Mobi Uz Project */,
 				588C0C2B289E65600046B606 /* Products */,
+				1CE78DEEE59662A2C8DEC805 /* Pods */,
+				3643389F386BE952807B0EF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,12 +108,10 @@
 		588C0C2C289E65600046B606 /* Mobi Uz Project */ = {
 			isa = PBXGroup;
 			children = (
-				588C0C2D289E65600046B606 /* AppDelegate.swift */,
-				588C0C2F289E65600046B606 /* SceneDelegate.swift */,
-				588C0C31289E65600046B606 /* ViewController.swift */,
-				588C0C33289E65600046B606 /* Main.storyboard */,
+				581406C9289E69F20039F10F /* Controller */,
+				581406C8289E69D30039F10F /* Main */,
+				581406C7289E69C00039F10F /* Delegate */,
 				588C0C39289E65610046B606 /* Assets.xcassets */,
-				588C0C3B289E65610046B606 /* LaunchScreen.storyboard */,
 				588C0C3E289E65610046B606 /* Info.plist */,
 				588C0C36289E65600046B606 /* Mobi_Uz_Project.xcdatamodeld */,
 			);
@@ -77,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 588C0C41289E65610046B606 /* Build configuration list for PBXNativeTarget "Mobi Uz Project" */;
 			buildPhases = (
+				AFD4F34AC8B19DB10C073DE2 /* [CP] Check Pods Manifest.lock */,
 				588C0C26289E65600046B606 /* Sources */,
 				588C0C27289E65600046B606 /* Frameworks */,
 				588C0C28289E65600046B606 /* Resources */,
+				2FC5D9FFA917F3C7647CFA4F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +185,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FC5D9FFA917F3C7647CFA4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobi Uz Project/Pods-Mobi Uz Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobi Uz Project/Pods-Mobi Uz Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mobi Uz Project/Pods-Mobi Uz Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFD4F34AC8B19DB10C073DE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobi Uz Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		588C0C26289E65600046B606 /* Sources */ = {
@@ -286,6 +378,7 @@
 		};
 		588C0C42289E65610046B606 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE2DF72E03B2621441B1B82C /* Pods-Mobi Uz Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +407,7 @@
 		};
 		588C0C43289E65610046B606 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C381F205BEAC5B9829EE508D /* Pods-Mobi Uz Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
