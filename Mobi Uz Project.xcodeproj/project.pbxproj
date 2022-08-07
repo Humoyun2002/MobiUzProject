@@ -11,6 +11,7 @@
 		581406CE289E72790039F10F /* UssdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581406CD289E72790039F10F /* UssdView.swift */; };
 		581406D0289E72860039F10F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581406CF289E72860039F10F /* ProfileView.swift */; };
 		581406D2289E74270039F10F /* TabBaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581406D1289E74270039F10F /* TabBaController.swift */; };
+		582EF8BF289FC33B0074638A /* HomeImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582EF8BE289FC33B0074638A /* HomeImageCell.swift */; };
 		588C0C2E289E65600046B606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588C0C2D289E65600046B606 /* AppDelegate.swift */; };
 		588C0C30289E65600046B606 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588C0C2F289E65600046B606 /* SceneDelegate.swift */; };
 		588C0C35289E65600046B606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588C0C33289E65600046B606 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		581406CD289E72790039F10F /* UssdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UssdView.swift; sourceTree = "<group>"; };
 		581406CF289E72860039F10F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		581406D1289E74270039F10F /* TabBaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBaController.swift; sourceTree = "<group>"; };
+		582EF8BE289FC33B0074638A /* HomeImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeImageCell.swift; sourceTree = "<group>"; };
 		588C0C2A289E65600046B606 /* Mobi Uz Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobi Uz Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		588C0C2D289E65600046B606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		588C0C2F289E65600046B606 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,14 @@
 			path = TabBarController;
 			sourceTree = "<group>";
 		};
+		582EF8BD289FC3130074638A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				582EF8BE289FC33B0074638A /* HomeImageCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		588C0C21289E65600046B606 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 		588C0C2C289E65600046B606 /* Mobi Uz Project */ = {
 			isa = PBXGroup;
 			children = (
+				582EF8BD289FC3130074638A /* Cell */,
 				581406CA289E72570039F10F /* TabBarController */,
 				581406C9289E69F20039F10F /* Controller */,
 				581406C8289E69D30039F10F /* Main */,
@@ -252,6 +263,7 @@
 			files = (
 				588C0C2E289E65600046B606 /* AppDelegate.swift in Sources */,
 				588C0C30289E65600046B606 /* SceneDelegate.swift in Sources */,
+				582EF8BF289FC33B0074638A /* HomeImageCell.swift in Sources */,
 				581406CE289E72790039F10F /* UssdView.swift in Sources */,
 				581406CC289E726C0039F10F /* HomeView.swift in Sources */,
 				581406D0289E72860039F10F /* ProfileView.swift in Sources */,

@@ -18,7 +18,7 @@ class ViewController: UITabBarController {
     func initView() {
         view.backgroundColor = .black
         tabBar.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
-        tabBar.barTintColor = .red
+//        tabBar.barTintColor = .red
         tabBar.tintColor = #colorLiteral(red: 0.8933964372, green: 0.05029817671, blue: 0.04642786086, alpha: 1)
        
         let homeVC = HomeView()
