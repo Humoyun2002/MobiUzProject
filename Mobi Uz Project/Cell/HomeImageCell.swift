@@ -24,8 +24,8 @@ class ImageCell: UICollectionViewCell  {
     
   private func initView() {
       self.addSubview(mobiUzImage)
-      mobiUzImage
-    }
+ 
+  }
     
     
 }

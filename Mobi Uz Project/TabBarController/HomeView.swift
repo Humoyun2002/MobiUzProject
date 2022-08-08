@@ -46,7 +46,7 @@ class HomeView: UIViewController {
             backgroundColorView.snp.makeConstraints { make in
                 make.top.equalToSuperview()
                 make.trailing.leading.equalToSuperview()
-                make.height.equalTo(170)
+                make.height.equalTo(150)
             }
             backgroundColorView.addSubview(sideMenuButton)
             sideMenuButton.setImage(UIImage(named: "menu"), for: .normal)
@@ -82,7 +82,7 @@ extension HomeView: UICollectionViewDelegate, UICollectionViewDataSource, UIColl
             
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ImageCell.identifier, for: indexPath) as! ImageCell
             
-            cell.backgroundColor = .yellow
+            cell.backgroundColor = .red
             
             return cell
         }
@@ -94,7 +94,7 @@ extension HomeView: UICollectionViewDelegate, UICollectionViewDataSource, UIColl
         }
         
         func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-            return UIEdgeInsets(top: 110, left: 0 , bottom: 400, right: 0)
+            return UIEdgeInsets(top: 70, left: 0 , bottom: 400, right: 0)
         }
         
     }
