@@ -37,7 +37,7 @@ class HomeView: UIViewController {
      func initViews() {
  
         view.addSubview(collectionView)
-        collectionView.layer.borderColor = UIColor.systemGray.cgColor
+     collectionView.layer.borderColor = UIColor.systemGray.cgColor
         collectionView.layer.borderWidth = 2
         collectionView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
