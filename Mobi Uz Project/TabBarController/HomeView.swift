@@ -31,10 +31,11 @@ class HomeView: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .appWhite
         initViews()
      }
-    private func initViews() {
-        
+     func initViews() {
+ 
         view.addSubview(collectionView)
         collectionView.layer.borderColor = UIColor.systemGray.cgColor
         collectionView.layer.borderWidth = 2
@@ -89,12 +90,12 @@ extension HomeView: UICollectionViewDelegate, UICollectionViewDataSource, UIColl
         
         func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
             
-            return CGSize(width: collectionView.frame.width, height:
-                            collectionView.frame.height - 640)
+            return CGSize(width: collectionView.frame.width - 4 , height:
+                            collectionView.frame.height - 750)
         }
         
         func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-            return UIEdgeInsets(top: 70, left: 0 , bottom: 400, right: 0)
+            return UIEdgeInsets(top: 160 , left: 0 , bottom: 600 , right: 0)
         }
         
     }

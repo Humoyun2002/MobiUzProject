@@ -12,15 +12,14 @@ import SnapKit
 class ViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .orange
-        initView()
+         initView()
+        view.backgroundColor = .appWhite
+
     }
     func initView() {
-        view.backgroundColor = .black
-        tabBar.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
-//        tabBar.barTintColor = .red
-        tabBar.tintColor = #colorLiteral(red: 0.8933964372, green: 0.05029817671, blue: 0.04642786086, alpha: 1)
-       
+         tabBar.tintColor = #colorLiteral(red: 0.8933964372, green: 0.05029817671, blue: 0.04642786086, alpha: 1)
+        tabBar.barTintColor = .white
+
         let homeVC = HomeView()
         
         let home = UITabBarItem(title: "Home", image: #imageLiteral(resourceName: "home"),selectedImage: #imageLiteral(resourceName: "home") )

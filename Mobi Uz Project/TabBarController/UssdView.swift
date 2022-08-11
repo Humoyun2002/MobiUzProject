@@ -12,6 +12,5 @@ class UssdView: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-    }
+     }
 }
