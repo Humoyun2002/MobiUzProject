@@ -1,14 +1,14 @@
 //
-//  ProfileView.swift
+//  korzinka. .swift
 //  Mobi Uz Project
 //
-//  Created by humoyun on 06/08/22.
+//  Created by humoyun on 03/10/22.
 //
 
 import UIKit
 import SnapKit
 
-class ProfileView: UIViewController {
+class Ussed: UIViewController {
     
     
     
@@ -19,4 +19,3 @@ class ProfileView: UIViewController {
     }
     
 }
-

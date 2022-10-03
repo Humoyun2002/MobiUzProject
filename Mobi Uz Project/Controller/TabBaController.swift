@@ -26,7 +26,7 @@ class ViewController: UITabBarController {
 
         homeVC.tabBarItem = home
       
-        let bookVC = UssdView()
+        let bookVC = Ussed()
         let books = UITabBarItem(title: "Ussd", image: UIImage(named: "ussd"), selectedImage: UIImage(named: "ussd"))
        
         bookVC.tabBarItem = books
